@@ -187,4 +187,51 @@ nav ul li {
   text-transform: uppercase;
 }
 
+.services .circle{
+  position: relative;
+  margin: 0.375rem auto;
+  background: darkslategray;
+  border-radius: 50%;
+  width: 3.125rem;
+  height: 3.125rem;
+}
 
+.services .icon {
+  font-size: 1.4rem;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.services .box {
+  height: 16rem;
+  border-bottom: 0.3125rem solid darkslategray;
+  padding: 0.625rem;
+  margin-bottom: 1.875rem;
+  background: white;
+
+}
+
+.services .box:hover{
+  background: darkslategray;
+  border-bottom: 0.3125rem solid white;
+}
+
+.services .box:hover .icon {
+  color: darkslategray;
+}
+
+.services .box:hover .circle {
+  background: white;
+}
+
+.services .box:hover p {
+  color: white;
+}
+
+.services .box:hover h3 {
+  color: white;
+}

@@ -11,7 +11,7 @@ const Services = () => {
                     <div className="col-md-3 col-sm-6">
                             <div className="box">
                                 <div className="circle">
-                                    <FontAwesomeIcon icon={faFileCode} size="2x"/>
+                                    <FontAwesomeIcon className="icon" icon={faFileCode} size="2x"/>
                                 </div>
                                 <h3>Web Design</h3>
                                 <p></p>
@@ -20,7 +20,7 @@ const Services = () => {
                         <div className="col-md-3 col-sm-6">
                             <div className="box">
                                 <div className="circle">
-                                    <FontAwesomeIcon icon={faCode} size="2x"/>
+                                    <FontAwesomeIcon className="icon" icon={faCode} size="2x"/>
                                 </div>
                                 <h3>Web Development</h3>
                                 <p></p>
@@ -29,7 +29,7 @@ const Services = () => {
                         <div className="col-md-3 col-sm-6">
                             <div className="box">
                                 <div className="circle">
-                                    <FontAwesomeIcon icon={faDesktop} size="2x"/> 
+                                    <FontAwesomeIcon className="icon" icon={faDesktop} size="2x"/> 
                                 </div>
                                 <h3>Informaion Technology</h3>
                                 <p></p>
@@ -38,7 +38,7 @@ const Services = () => {
                         <div className="col-md-3 col-sm-6">
                             <div className="box">
                                 <div className="circle">
-                                    <FontAwesomeIcon icon={faUserCircle} size="2x"/> 
+                                    <FontAwesomeIcon className="icon" icon={faUserCircle} size="2x"/> 
                                 </div>
                                 <h3>Management</h3>
                                 <p></p>
