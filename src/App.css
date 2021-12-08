@@ -174,3 +174,17 @@ nav ul li {
   }
   
 }
+
+/* service css*/
+.services {
+  text-align: center;
+  padding-bottom: 2rem;
+  background: lightslategrey;
+}
+
+.services h1 {
+  color: white;
+  text-transform: uppercase;
+}
+
+
